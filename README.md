@@ -1,2 +1,2 @@
-#Lista de exercicíos feita nas aulas de Python
+# Lista de exercicíos feita nas aulas de Python
 
