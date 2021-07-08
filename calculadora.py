@@ -1,30 +1,49 @@
-#!/usr/bin/python3
 import os
-import time
 
-matriz = [
-    (7,8,9,'x'),
-    (4,5,6,'-'),
-    (1,2,3,'+'),
-    (0,'%','/','=')
+if os.name == 'nt':
+    os.system('cls')
+else:
+    os.system('clear')
+    
+soma = lambda x,y: x+y
+subtracao = lambda x,y: x-y
+multiplicacao = lambda x,y: x*y
 
-]                  i
+def divisao(x,y):
+    if y != 0:
+       return print(f'\n {x/y}')
+    
+    return print('\nDivisor nao pode ser 0')
 
-numeros = []
+def sair(*args):
+    exit()
 
-while True:
-    print('\nCalculadora Simples\n')
-    print(' 7  8  9  x')
-    print(' 4  5  6  -')
-    print(' 1  2  3  +')
-    print(' 0  %  /  =\n\n')
-    op = input('Qual operacao(+,-,*,/,%): ')
+# Direcionar o fluxo da aplicacao
+dicios = {
+    '1':soma,
+    '2':subtracao,
+    '3':multiplicacao,
+    '4':divisao,
+    '5':sair
+}
+def menu(*msg):
+    while True:
+        n1 = float(input('Digite o N1: '))
+        n2 = float(input('Digite p N2: '))
+        print('\n')
+        for op in msg:
+            print(f'{op}')
+            
+        opcao=input('Escolha a opcao: ')
 
-    num1 = input('Primeiro valor:')
-    numeros.append(int(num1))
+        if opcao in dicios.keys():
+            print(dicios[opcao](n1,n2))
+        else:
+            print('\nOpcao inválida !!!')
+
+if __name__ == '__main__':
+    menu('1-Soma','2-Subtracao','3-Multiplicacao','4-Divisao','5-Sai')
+    
     
 
-
-
-    
 
