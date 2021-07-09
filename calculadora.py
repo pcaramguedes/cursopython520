@@ -1,8 +1,9 @@
 import os
+from time import sleep
 
-if os.name == 'nt':
-    os.system('cls')
-else:
+def limpa():
+    if os.name == 'nt':
+        os.system('cls')
     os.system('clear')
     
 soma = lambda x,y: x+y
@@ -28,6 +29,7 @@ dicios = {
 }
 def menu(*msg):
     while True:
+        limpa()
         n1 = float(input('Digite o N1: '))
         n2 = float(input('Digite p N2: '))
         print('\n')
@@ -40,7 +42,7 @@ def menu(*msg):
             print(dicios[opcao](n1,n2))
         else:
             print('\nOpcao inválida !!!')
-
+        sleep(2)
 if __name__ == '__main__':
     menu('1-Soma','2-Subtracao','3-Multiplicacao','4-Divisao','5-Sai')
     

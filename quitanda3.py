@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 import time
-import os
+from os import name,system
 
 dicionario = {}
 
 def limpa():
-    if os.name == 'nt':
-        os.system('cls')
-    os.system('clear')
+    if name == 'nt':
+        system('cls')
+    system('clear')
     
 
 def cesta():
