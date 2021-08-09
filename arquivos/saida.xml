@@ -1,0 +1,15 @@
+<partida><!--Partida realizada em 2002 com o gol antologico-->
+        <ano>2002</ano>
+        <torneio>Rio Sao Paulo</torneio>
+        <times>
+                <mandante>Sao Paulo</mandante>
+                <visitande>Palmeiras</visitande>
+        </times>
+        <resultado>4x2</resultado>
+        <gols>
+                <mandante>
+                        <Jogador1>Franca</Jogador1>
+                        <Jogador2>Kaka</Jogador2>
+                </mandante>
+        </gols>
+</partida>

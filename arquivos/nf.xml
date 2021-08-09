@@ -1,0 +1,93 @@
+<CompNfse xmlns="http://www.abrasf.org.br/nfse.xsd">
+        <Nfse xmlns="http://www.abrasf.org.br/nfse.xsd" versao="1.00">
+            <InfNfse Id="nfse">
+                        <Numero>202100001128261</Numero>
+                        <CodigoVerificacao>389ac7f3</CodigoVerificacao>
+                        <DataEmissao>2021-08-04T11:34:37</DataEmissao>
+                        <IdentificacaoRps>
+                                <Numero>1128474</Numero>
+                                <Serie>1</Serie>
+                                <Tipo>1</Tipo>
+                        </IdentificacaoRps>
+                        <DataEmissaoRps>2021-08-04</DataEmissaoRps>
+                        <NaturezaOperacao>1</NaturezaOperacao>
+                        <OptanteSimplesNacional>2</OptanteSimplesNacional>
+                        <IncentivadorCultural>2</IncentivadorCultural>
+                        <Competencia>2021-08-04T11:31:01</Competencia>
+                        <Servico>
+                            <Valores>
+                                <ValorServicos>28.22</ValorServicos>
+                                <IssRetido>2</IssRetido>
+                                <ValorIss>0.71</ValorIss>
+                                <BaseCalculo>28.22</BaseCalculo>
+                                <Aliquota>0.025</Aliquota>
+                                <ValorLiquidoNfse>28.22</ValorLiquidoNfse>
+                            </Valores>
+                            <ItemListaServico>1.07</ItemListaServico>
+                            <CodigoTributacaoMunicipio>10700188</CodigoTributacaoMunicipio>
+                            <Discriminacao>Plataforma EAD ENSINA - SVA, Plataforma Hero - SVA, Revistas digitais UOL Banca - SVA, Streaming de Video Watch Brasil - SVA, Assistencia Premium II - SVA
+                            </Discriminacao>
+                            <CodigoMunicipio>3106200</CodigoMunicipio>
+                        </Servico>
+                        <PrestadorServico>
+                            <IdentificacaoPrestador>
+                                <Cnpj>39565567000140</Cnpj>
+                                <InscricaoMunicipal>12588620010</InscricaoMunicipal>
+                            </IdentificacaoPrestador>
+                            <RazaoSocial>BTT TELECOMUNICACOES LTDA</RazaoSocial>
+                            <Endereco><Endereco>RUA PADRE EUSTAQUIO</Endereco>
+                                <Numero>2926</Numero>
+                                <Complemento>SALA 501</Complemento>
+                                <Bairro>Padre Eustáquio</Bairro>
+                                <CodigoMunicipio>3106200</CodigoMunicipio>
+                                <Uf>MG</Uf>
+                                <Cep>30720100</Cep>
+                            </Endereco>
+                        </PrestadorServico>
+                        <TomadorServico>
+                            <IdentificacaoTomador>
+                                <CpfCnpj>
+                                    <Cnpj>17454711000139</Cnpj>
+                                </CpfCnpj>
+                            </IdentificacaoTomador>
+                            <RazaoSocial>SINDEAC CLUBE</RazaoSocial>
+                                <Endereco><Endereco>Rua Sindicalista Lucio Guterres</Endereco>
+                                    <Numero>525</Numero>
+                                    <Bairro>Chacaras Cotia</Bairro>
+                                    <CodigoMunicipio>3118601</CodigoMunicipio>
+                                    <Uf>MG</Uf>
+                                    <Cep>32183080</Cep>
+                                </Endereco>
+                                <Contato>
+                                    <Telefone>3121045856</Telefone>
+                                    <Email>informatica@sindeac.org.br</Email>
+                                </Contato>
+                        </TomadorServico>
+                        <OrgaoGerador>
+                            <CodigoMunicipio>3106200</CodigoMunicipio>
+                            <Uf>MG</Uf>
+                        </OrgaoGerador>
+            </InfNfse>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="NfseAssSMF_nfse">
+                    <SignedInfo>
+                        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315">
+                        </CanonicalizationMethod>
+                        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></SignatureMethod>
+                        <Reference URI="#nfse">
+                                <Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature">
+                                </Transform>
+                                <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></Transform>
+                                </Transforms>
+                                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+                                <DigestValue>Peg10unGte7eVDeTEwMqMfSrusg=</DigestValue>
+                        </Reference>
+                    </SignedInfo>
+                    <SignatureValue>LcCEt6Z/YVutctxjs2nf2VD028lFeZG2tPEq6/aQohoY+oMqbumnrKDfkTmGyejBOT0UY5D+/M0x3baMdlTynrI/wItPUPx4Nr7WkIlPjcUnTapDHOV31n6KpFrfU3G7zryv8RQ1reVwrefD7+U+eMubv5E3vTjUd281Wos6ThTdjbrUdTsj7ob22JiHB7keWqTzVHw4zgKmyIJUcjiDCyOeV9/5SsHmkw9zqNZYd7soCiHJbXPF9Yp63nuGUewvdq9d3oTKjrMj6Mn+UQNAoCG1vtJ2VNl8ScMq/j6TLEYgWZDvxsaIcRRkStcQwWBzuznM+62HNtz+xG7laDjuHw==</SignatureValue>
+                    <KeyInfo>
+                        <X509Data>
+                        <X509Certificate>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</X509Certificate>
+                        </X509Data>
+                    </KeyInfo>
+            </Signature>
+        </Nfse>
+</CompNfse>
